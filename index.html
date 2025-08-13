@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Everardo Cantu — Resume</title>
+  <meta name="description" content="Resume and portfolio of Your Name." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="container">
+    <div class="intro">
+      <img class="avatar" src="assets/headshot.jpg" alt="Headshot of Your Name" />
+      <div>
+        <h1>Your Name</h1>
+        <p class="tagline">Systems Test Technician • IT Services • Student</p>
+        <p class="links">
+          <a href="mailto:you@example.com">everardo.cantu@ymail.com</a> ·
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a> ·
+          <a href="https://www.linkedin.com/in/yourhandle" target="_blank" rel="noopener">LinkedIn</a>
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container grid">
+    <section>
+      <h2>Summary</h2>
+      <p>
+        Marine Corps Veteran | Aspiring IT Professional.
+      </p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul class="pill-list">
+        <li>Python</li><li>Java</li><li>HTML/CSS</li><li>Git/GitHub</li>
+        <li>Linux</li><li>Azure (App Service, Functions)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <article class="card">
+        <h3>IT Services Web App (Team Project)</h3>
+        <p>Creating and implemeneting an IT services app.</p>
+        <ul>
+          <li>Role: Frontend/DevOps/Security</li>
+          <li>Tech: HTML, CSS, JavaScript, Azure Static Web Apps</li>
+        </ul>
+        <p><a href="https://github.com/ORG_OR_USER/teamA-F-it-services-app" target="_blank" rel="noopener">Source</a></p>
+      </article>
+
+
+    <section>
+      <h2>Experience</h2>
+      <div class="item">
+        <h3>Company / Role</h3>
+        <p class="meta">City, ST · Month YYYY – Present</p>
+        <ul>
+          <li>What you did and impact (numbers if possible).</li>
+          <li>Tools and technologies you used.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="item">
+        <h3>University of Texas — B.S </h3>
+        <p class="meta">Expected Graduation: 2026</p>
+        <p>Relevant Coursework: Networking, Systems, Databases, etc.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <ul>
+        <li>CompTIA A+</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="year"></span> Everarod Cantu </p>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
