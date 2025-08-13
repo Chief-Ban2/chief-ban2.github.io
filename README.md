@@ -15,5 +15,3 @@ Open `index.html` in your browser, or use VS Code Live Server.
 1. Edit files
 2. Commit and push to `main`
 3. GitHub Pages auto-updates within ~1 minute
-
-## License
